@@ -184,7 +184,6 @@
               <td @click="deleteCustomer(customer)">
                 <button style="background-color: transparent; padding: 0">
                   <svg
-                    @click="deleteCustomer"
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16"
