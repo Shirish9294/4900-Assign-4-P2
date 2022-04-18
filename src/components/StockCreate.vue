@@ -24,7 +24,7 @@
                       <div class="col col-8">
                         <select v-model="stock.customer" class="form-select">
                           <option class="form-select form-select-sm " v-for=" item in list" :value="item.pk"
-                                  :key="item.pk"> {{ item.cust_number }}
+                                  :key="item.pk"> {{ item.name }}
                           </option>
                         </select>
                       </div>
